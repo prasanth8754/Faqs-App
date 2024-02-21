@@ -1,0 +1,55 @@
+.list-cont {
+  padding: 15px;
+  border: 1px solid #d7dae6;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.quest-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.border-style {
+  border-bottom: 1px solid #e4e7eb;
+}
+.quest-heading {
+  color: #52606d;
+  font-size: 17px;
+}
+button {
+  background: transparent;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+}
+img {
+  width: 20px;
+}
+p {
+  color: #9aa5b1;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .quest-heading {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  img {
+    width: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .list-cont {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .list-cont {
+    width: 850px;
+  }
+}
